@@ -1,0 +1,12 @@
+{
+  "name": "skill-manager",
+  "version": "0.1.0",
+  "description": "Local management for Kimi Code Agent Skills: list, inspect, validate, scaffold, install, disable and re-enable skills",
+  "keywords": ["skills", "skill-manager", "validate"],
+  "interface": {
+    "displayName": "Skill Manager",
+    "shortDescription": "查看、校验、新建、安装、启用/停用本地 Agent Skills",
+    "longDescription": "在对话中管理 Kimi Code 的 Agent Skills：列出用户/项目/额外目录下的技能，校验 SKILL.md 格式，生成新技能骨架，从本地目录安装技能，停用或恢复技能。"
+  },
+  "skills": "./skills/"
+}
